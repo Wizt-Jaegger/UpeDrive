@@ -1,4 +1,4 @@
-<section class="why_section layout_padding">
+<section class="why_section layout_padding" id="why">
          <div class="container">
             <div class="heading_container heading_center">
                <h2>

@@ -11,20 +11,15 @@
                            <a class="nav-link" href="{{'/'}}">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></a>
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Nuestra trayectoria <span class="caret"></span></a>
                            <ul class="dropdown-menu">
-                              <li><a href="home/about.html">Acerca De</a></li>
-                              <li><a href="home/testimonial.html">Testimonios</a></li>
+                              <li><a href="#why">Acerca De</a></li>
+                              <li><a href="#testimonios">Testimonios</a></li>
+                              
                            </ul>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="home/product.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="home/blog_list.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="home/contact.html">Contacto</a>
+                           <a class="nav-link" href="#subscribe">Contacto</a>
                         </li>
                         @if (Auth::check() && Auth::user()->usertype == 0)
                            <li class="nav-item">

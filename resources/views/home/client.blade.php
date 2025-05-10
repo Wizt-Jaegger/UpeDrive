@@ -7,7 +7,7 @@
   }
 </style>
 
-<section class="client_section layout_padding">
+<section class="client_section layout_padding" section id="testimonios">
   <div class="container">
     <div class="heading_container heading_center">
       <h2>Testimonios de nuestros clientes</h2>
